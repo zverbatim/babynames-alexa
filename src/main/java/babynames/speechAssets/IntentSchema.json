@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "intent": "BabyNameIntent"
+      "intent": "RandomNameIntent"
     },
     {
       "intent": "GirlNameIntent"

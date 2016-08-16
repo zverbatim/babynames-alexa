@@ -83,7 +83,7 @@ public final class Launcher {
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.setContextPath("/");
         server.setHandler(context);
-        context.addServlet(new ServletHolder(createServlet(new BabyNamesSpeechlet())), "/hello");
+        context.addServlet(new ServletHolder(createServlet(new BabyNamesSpeechlet())), "/babynames");
         server.start();
         server.join();
     }

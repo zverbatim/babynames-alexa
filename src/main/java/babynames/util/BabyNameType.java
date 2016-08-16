@@ -3,27 +3,27 @@ package babynames.util;
 import java.util.HashMap;
 import java.util.Map;
 
-public enum NameType {
+public enum BabyNameType {
     BOY("M","boy"),
     GIRL("F", "girl");
 
     final String code;
     final String pronounced;
-    static Map<String, NameType> map;
+    static Map<String, BabyNameType> map;
 
-    NameType(String code, String pronounced) {
+    BabyNameType(String code, String pronounced) {
         this.code = code;
         this.pronounced = pronounced;
     }
 
     private static void initMap() {
         map = new HashMap<>();
-        for (NameType nameType : NameType.values()) {
-            map.put(nameType.code, nameType);
+        for (BabyNameType babyNameType : BabyNameType.values()) {
+            map.put(babyNameType.code, babyNameType);
         }
     }
 
-    static NameType retrieveType(String code) {
+    static BabyNameType retrieveType(String code) {
         if (map == null){
             initMap();
         }

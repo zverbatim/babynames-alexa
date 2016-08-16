@@ -1,14 +1,14 @@
-BabyNameIntent tell me a name
-BabyNameIntent tell us a name
-BabyNameIntent tell a name
-BabyNameIntent suggest me a name
-BabyNameIntent suggest us name
-BabyNameIntent suggest a name
-BabyNameIntent say me a name
-BabyNameIntent say us a name
-BabyNameIntent say a name
-BabyNameIntent a name
-BabyNameIntent name
+RandomNameIntent tell me a name
+RandomNameIntent tell us a name
+RandomNameIntent tell a name
+RandomNameIntent suggest me a name
+RandomNameIntent suggest us name
+RandomNameIntent suggest a name
+RandomNameIntent say me a name
+RandomNameIntent say us a name
+RandomNameIntent say a name
+RandomNameIntent a name
+RandomNameIntent name
 
 GirlNameIntent tell me a girl name
 GirlNameIntent tell us a girl name
