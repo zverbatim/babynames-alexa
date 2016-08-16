@@ -5,7 +5,7 @@
     <artifactId>babynames-alexa</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
-    <name>Baby names exporer based of social security public data for 2015</name>
+    <name>Baby names explorer based of social security public data for 2015</name>
     <url>http://todo.com</url>
 
     <dependencies>
