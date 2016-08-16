@@ -12,3 +12,7 @@ Project based of the [alexa java samples](https://github.com/amzn/alexa-skills-k
 - build `mvn assembly:assembly -DdescriptorId=jar-with-dependencies package`
 - upload to _aws lambda_ the zip `target/babynames-alexa-1.0-jar-with-dependencies.jar`
 - modify the `id` in `supportedApplicationIds.add("amzn1.ask.skill.[id]");` for class `BabyNamesSpeechletRequestStreamHandler.java`
+
+## TODO
+- Add unit tests tests
+- Extend the intent schema and the utterance
