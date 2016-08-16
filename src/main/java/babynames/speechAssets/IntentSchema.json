@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "BabyNameIntent"
+    },
+    {
+      "intent": "GirlNameIntent"
+    },
+    {
+      "intent": "BoyNameIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

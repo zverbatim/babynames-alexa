@@ -1,0 +1,35 @@
+BabyNameIntent tell me a name
+BabyNameIntent tell us a name
+BabyNameIntent tell a name
+BabyNameIntent suggest me a name
+BabyNameIntent suggest us name
+BabyNameIntent suggest a name
+BabyNameIntent say me a name
+BabyNameIntent say us a name
+BabyNameIntent say a name
+BabyNameIntent a name
+BabyNameIntent name
+
+GirlNameIntent tell me a girl name
+GirlNameIntent tell us a girl name
+GirlNameIntent tell a girl name
+GirlNameIntent suggest me a girl name
+GirlNameIntent suggest us girl name
+GirlNameIntent suggest a girl name
+GirlNameIntent say me a girl name
+GirlNameIntent say us a girl name
+GirlNameIntent say a girl name
+GirlNameIntent a girl name
+GirlNameIntent girl name
+
+BoyNameIntent tell me a boy name
+BoyNameIntent tell us a boy name
+BoyNameIntent tell a boy name
+BoyNameIntent suggest me a boy name
+BoyNameIntent suggest us boy name
+BoyNameIntent suggest a boy name
+BoyNameIntent say me a boy name
+BoyNameIntent say us a boy name
+BoyNameIntent say a boy name
+BoyNameIntent a boy name
+BoyNameIntent boy name
