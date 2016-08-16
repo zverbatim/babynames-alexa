@@ -2,7 +2,7 @@ Babynames for Alexa
 ===================
 
 ## About
-Baby names explorer based of social security public data for 2015
+Baby names explorer based of social security public [data](https://www.ssa.gov/oact/babynames/limits.html) for 2015
 Project based of the [alexa java samples](https://github.com/amzn/alexa-skills-kit-java)
 
 ## Docs
@@ -15,4 +15,4 @@ Project based of the [alexa java samples](https://github.com/amzn/alexa-skills-k
 
 ## TODO
 - Add unit tests tests
-- Extend the intent schema and the utterance
+- Extend the intent schema and utterance
