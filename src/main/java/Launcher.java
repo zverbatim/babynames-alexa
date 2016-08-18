@@ -49,10 +49,8 @@ public final class Launcher {
     /**
      * Main entry point. Starts a Jetty server.
      *
-     * @param args
-     *            ignored.
-     * @throws Exception
-     *             if anything goes wrong.
+     * @param args ignored.
+     * @throws Exception if anything goes wrong.
      */
     public static void main(final String[] args) throws Exception {
         // Configure logging to output to the console with default level of INFO

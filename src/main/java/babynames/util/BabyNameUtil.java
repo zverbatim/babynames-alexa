@@ -10,8 +10,8 @@ public class BabyNameUtil {
 
     static final String NAMES_PATH = "babynames/yob2015.txt";
 
-    List<BabyName> boys;
-    List<BabyName> girls;
+    static List<BabyName> boys;
+    static List<BabyName> girls;
 
     public BabyNameUtil() {
         initNames();

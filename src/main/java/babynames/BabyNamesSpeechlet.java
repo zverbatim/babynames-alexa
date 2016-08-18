@@ -52,12 +52,12 @@ public class BabyNamesSpeechlet implements Speechlet {
     @Override
     public SpeechletResponse onIntent(final IntentRequest request, final Session session)
             throws SpeechletException {
-        log.info("onIntent requestId={}, sessionId={}", request.getRequestId(),
-                session.getSessionId());
 
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
 
+        log.info("onIntent intentName={} requestId={}, sessionId={}", intentName, request.getRequestId(),
+                session.getSessionId());
 
         if (intentName != null) {
             BabyNameUtil babyNameUtil = new BabyNameUtil();
@@ -66,7 +66,7 @@ public class BabyNamesSpeechlet implements Speechlet {
                     return getBabyName(babyNameUtil.randomName());
                 case "BoyNameIntent":
                     return getBabyName(babyNameUtil.boyName());
-                case "GirlsNameIntent":
+                case "GirlNameIntent":
                     return getBabyName(babyNameUtil.girlName());
                 case "AMAZON.HelpIntent":
                     return getHelpResponse();
@@ -92,7 +92,7 @@ public class BabyNamesSpeechlet implements Speechlet {
      * @return SpeechletResponse spoken and visual response for the given intent
      */
     private SpeechletResponse getWelcomeResponse() {
-        String speechText = "Ask Alexa to suggest a baby name.";
+        String speechText = "Ask Alexa to suggest a baby name. You can say: tell me a baby name, a girl name, or a boy name";
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
