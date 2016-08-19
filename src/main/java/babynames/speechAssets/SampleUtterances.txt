@@ -4,6 +4,10 @@ RandomNameIntent tell a name
 RandomNameIntent suggest me a name
 RandomNameIntent suggest us name
 RandomNameIntent suggest a name
+RandomNameIntent pick us a baby name
+RandomNameIntent pick me a baby name
+RandomNameIntent pick a baby name
+RandomNameIntent pick a name
 RandomNameIntent say me a name
 RandomNameIntent say us a name
 RandomNameIntent say a name
@@ -16,6 +20,9 @@ GirlNameIntent tell a girl name
 GirlNameIntent suggest me a girl name
 GirlNameIntent suggest us girl name
 GirlNameIntent suggest a girl name
+GirlNameIntent pick us a girl name
+GirlNameIntent pick me a girl name
+GirlNameIntent pick a girl name
 GirlNameIntent say me a girl name
 GirlNameIntent say us a girl name
 GirlNameIntent say a girl name
@@ -28,6 +35,9 @@ BoyNameIntent tell a boy name
 BoyNameIntent suggest me a boy name
 BoyNameIntent suggest us boy name
 BoyNameIntent suggest a boy name
+GirlNameIntent pick us a boy name
+GirlNameIntent pick me a boy name
+GirlNameIntent pick a boy name
 BoyNameIntent say me a boy name
 BoyNameIntent say us a boy name
 BoyNameIntent say a boy name
