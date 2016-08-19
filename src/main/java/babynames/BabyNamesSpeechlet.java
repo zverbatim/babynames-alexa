@@ -92,7 +92,7 @@ public class BabyNamesSpeechlet implements Speechlet {
      * @return SpeechletResponse spoken and visual response for the given intent
      */
     private SpeechletResponse getWelcomeResponse() {
-        String speechText = "Ask Alexa to suggest a baby name. You can say: tell me a baby name, a girl name, or a boy name";
+        String speechText = "Ask for a baby name. You can say: tell me a baby name, a girl name, or a boy name";
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
